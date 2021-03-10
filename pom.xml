@@ -6,6 +6,7 @@
 
     <groupId>org.example</groupId>
     <artifactId>secondWorld</artifactId>
+    <packaging>pom</packaging>
 
     <version>1.0-SNAPSHOT</version>
     <build>
@@ -20,6 +21,9 @@
             </plugin>
         </plugins>
     </build>
+    <modules>
+        <module>secondcxc</module>
+    </modules>
     <dependencies>
         <dependency>
             <groupId>org.projectlombok</groupId>
